@@ -1,69 +1,47 @@
-[PRD] 은행수나무 인증삽목묘 직거래 및 재고 관리 플랫폼
-1. 개요 (Overview)
-제품명: 은빛숲(가칭) - 자동화 온실 기반 은행수나무 인증삽목묘 직거래 플랫폼
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- 신바람 인증 은행 수나무 스마트 양묘장 검색엔진 및 카카오톡 공유 최적화 -->
+    <title>신바람 스마트 양묘장 - 100% 인증 은행 수나무 분양</title>
+    <meta name="description" content="유전자(DNA) 검사 완료 100% 수나무, 스마트팜 사물인터넷(IoT) 연동 정밀 온실 환경에서 건강하게 길러낸 명품 은행나무 묘목(3개월생, 5개월생, 7개월생, 12개월생, 18개월생) 및 삽수 분양" />
+    <meta name="keywords" content="은행나무, 수나무, 은행나무 묘목, 삽목묘, 스마트팜, 양묘장, 신바람농원, 신바람 양묘장, 유전자 인증" />
 
-배경: 자동화된 비닐하우스(스마트팜)에서 고품질로 균일하게 육묘된 은행수나무 인증삽목묘를 개월생별(3, 4, 7, 12, 18개월)로 분류하여, 조경업자·농가·일반 소비자에게 투명하게 직거래로 판매하고 재고를 관리하고자 함.
+    <!-- Open Graph (카카오톡, 페이스북, 블로그 등 SNS 공유용 카드 정보) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="신바람 스마트 양묘장" />
+    <meta property="og:title" content="신바람 스마트 양묘장 - 100% 인증 은행 수나무 분양" />
+    <meta property="og:description" content="3개월생 포트묘부터 활착 완료 묘목까지! 스마트팜 사물인터넷(IoT) 정밀 온실 속에서 생육하여 실패 없는 100% 은행 수나무 명품 묘목을 만나보세요." />
+    <!-- 카카오톡 크롤러 봇이 절대 경로로 고정 인지 가능한 아름다운 고해상도 은행나무 명목 이미지 배정 -->
+    <meta property="og:image" content="https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1200&h=630&q=80" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-목표 (Goals):
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="신바람 스마트 양묘장 - 100% 인증 은행 수나무 분양" />
+    <meta name="twitter:description" content="스마트팜 정밀 제어로 실패율 제로에 도전하는 유전자(DNA) 인증 명품 은행 수나무 분양 플랫폼." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1200&h=630&q=80" />
+  </head>
+  <body>
+    <div id="root"></div>
 
-개월생별 묘목의 생육 상태(사진/데이터)와 가격을 직관적으로 보여주는 렌더링 페이지 구축
+    <!-- 카카오톡 스크래퍼(Scraper) 및 크롤러 봇이 자바스크립트를 실행하지 않고도 바로 이미지를 수집할 수 있도록 돕는 정적 이미지 가이드라인 -->
+    <div style="display: none; width: 0; height: 0; overflow: hidden; opacity: 0; pointer-events: none;" aria-hidden="true">
+      <h2>신바람 인증 은행 수나무 묘목 규격별 실시간 생육 사진 실인물</h2>
+      <img src="/src/assets/images/ginkgo_3month_1780902720035.png" alt="3개월생 묘목 - 발근 직후 어린 삽목묘" />
+      <img src="/src/assets/images/ginkgo_5month_1780902739306.png" alt="5개월생 묘목 - 포트묘" />
+      <img src="/src/assets/images/ginkgo_7month_1780902764098.png" alt="7개월생 묘목 - 활착 완료 묘목" />
+      <img src="/src/assets/images/ginkgo_12month_1780902785009.png" alt="12개월생 묘목 - 출하용 묘목" />
+      <img src="/src/assets/images/ginkgo_18month_1780902803217.png" alt="18개월생 묘목 - 대형 포트묘" />
+      <img src="/src/assets/images/ginkgo_cutting_1780902821121.png" alt="우량 수나무 모수 식재용 최고급 삽수" />
+      <img src="/src/assets/images/ginkgo_smartfarm_1780896770301.png" alt="스마트팜 첨단 양묘 온실 전경" />
+      <img src="/src/assets/images/ginkgo_sapling_1780896786766.png" alt="은행 수나무 대표 가로수 묘목" />
+    </div>
 
-실시간 스마트팜 육묘 환경(온도, 습도 등)을 시각화하여 품질에 대한 신뢰도 확보
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
 
-깃허브(Github) 저장소를 기반으로 버셀(Vercel)에 배포 가능한 가볍고 빠른 웹 프론트엔드 구현
-
-2. 타겟 사용자 및 핵심 가치 (User Persona & Value Proposition)
-B2B 고객 (조경업체, 지자체): 대량 구매를 위해 12개월생, 18개월생 등 규격화된 고품질 묘목의 대량 재고 확보 여부가 중요함.
-
-B2C 고객 (농가, 귀농인, 취미 농업): 3개월생, 4개월생 등 초기 비용이 저렴한 묘목을 선호하며, 정성적인 생육 상태 정보가 필요함.
-
-관리자 (생산자): 비닐하우스 내부에서 개월생별 재고 수량을 쉽게 업데이트하고 주문을 확인할 수 있어야 함.
-
-3. 핵심 요구사항 (Key Requirements)
-3.1. 상품 카테고리 구성 (개월생별 세분화)
-묘목의 특성상 연령별로 규격과 용도가 다르므로 다음과 같이 명확히 구분하여 노출합니다.
-
-유묘 단계 (초기 집중 육묘): 3개월생 / 4개월생 (포트묘 중심, 초기 활착용)
-
-정착 단계 (중기 육묘): 7개월생 (노지 이식 적기)
-
-성묘 단계 (완성형 묘목): 12개월생 / 18개월생 (즉시 식재 가능, 인증필 완료)
-
-3.2. 핵심 페이지 및 기능 (Features)
-메인 페이지 (Landing Page):
-
-자동화 비닐하우스 전경 및 인증삽목묘 브랜드 소개
-
-실시간 스마트팜 환경 지표 모킹 데이터 노출 (온도 24°C, 습도 60% 등)
-
-상품 목록 및 상세 페이지 (Product List & Detail):
-
-3, 4, 7, 12, 18개월생별 필터 기능
-
-각 개월생별 평균 수고(키), 근원직경, 뿌리 발달 상태(사진) 정보 제공
-
-대량 구매 문의 버튼 (Call to Action)
-
-대시보드형 관리자 페이지 (Admin - MVP 단계에서는 모킹 또는 간단한 수정 기능):
-
-개월생별 재고 수량 조정 기능 (UPDATE 쿼리 기반 구조)
-
-4. 기술 스택 및 배포 요구사항 (Tech Stack & Deployment)
-AI가 코드를 생성할 때 Vercel 환경에 최적화하도록 지정하는 기술 규격입니다.
-
-Frontend Framework: Next.js (App Router) 또는 React
-
-Styling: SCSS Modules 및 부드러운 호버 애니메이션(마이크로 인터랙션)을 위한 classNames 라이브러리 활용
-
-Database/Backend (선택 사양): 서버리스 환경에 적합한 Google Firebase (Firestore) 연동 구조 설계
-
-Deployment Workflow: * 소스 코드는 Github 전용 리포지토리에 push
-
-Vercel 프로덕션 환경에 자동 CI/CD 배포 (*.vercel.app 도메인 생성 무결성 확인)
-
-5. 단계별 마일스톤 (Milestones)
-1단계 (디자인 및 스키마): 개월생별 상품 테이블 구조(ERD) 정의 및 UI 와이어프레임 확보
-
-2단계 (AI 코드 생성): AI Studio/Cursor를 활용한 3, 4, 7, 12, 18개월생 필터링 페이지 및 상품 카드 컴포넌트 생성
-
-3단계 (배포): Github 연동 후 Vercel 최초 배포 및 모바일 웹 뷰포트 최적화 반응형 확인
